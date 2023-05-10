@@ -1,13 +1,12 @@
-import { createContext, useState } from "react";
+import { createContext } from "react";
 export const StateContext = createContext();
 
+// created this component for passing states from parent to children
 const StateProvider = ({ children }) => {
-  const [count, setCount] = useState(0);
   return (
     <StateContext.Provider
       value={{
-        count,
-        setCount,
+        
       }}
     >
       {children}
