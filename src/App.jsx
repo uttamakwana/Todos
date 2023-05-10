@@ -1,10 +1,10 @@
+import StateProvider from "./StateProvider";
 function App() {
-
   return (
-    <>
-      Hello World!
-    </>
-  )
+    <StateProvider>
+      <h1>Hello World!</h1>
+    </StateProvider>
+  );
 }
 
-export default App
+export default App;
