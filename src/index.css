@@ -3,3 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    /*colors */
+    --primary-bg: #2d2a32;
+    --primary-text: #fafdf6;
+    --secondary-bg: #ddd92a;
+    --secondary-text: #eeefa8;
+    --primary-bg-text: #2d2a32;
+    --secondary-bg-text: #ddd92a;
+}
