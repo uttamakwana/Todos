@@ -1,8 +1,14 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import StateProvider from "./StateProvider";
+import Home from "./pages/home/Home";
 function App() {
   return (
     <StateProvider>
-      <h1>Hello World!</h1>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </StateProvider>
   );
 }
